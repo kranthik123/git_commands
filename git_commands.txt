@@ -1,0 +1,6 @@
+git init # To initialize a git repo
+git add README.md # To stage a file to be commited
+git commit -m "first commit" # To commit the staged files
+git remote add origin https://github.com/kranthik123/git_commands.git # To link the local repo to the github repo
+git push -u origin master # To push the commited changes to the Github repo.
+git rm --cached <file-name> # To unstage the file that was previously staged.
